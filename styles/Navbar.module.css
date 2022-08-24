@@ -1,0 +1,40 @@
+.header {
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header .logo {
+  color: #d3b19d;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header ul li a {
+  color: #d3b19d;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.5rem 0.8rem;
+  transition: 0.3s;
+}
+
+.header .logo:hover,
+.header ul li a:hover {
+  color: #4bd0fa;
+}

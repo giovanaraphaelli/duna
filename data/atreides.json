@@ -1,0 +1,58 @@
+{
+  "atreides": [
+    {
+      "slug": "paul-atreides",
+      "name": "Paul Atreides",
+      "home-planet": "Caladan",
+      "birth-date": "10.175 d.G.",
+      "genre": "Masculino",
+      "about": "Paul Atreides, também conhecido como Paul Muad'Dib, Usul e mais tarde O Pregador, foi um humano com habilidades prescientes responsável pela queda do Imperador Shaddam IV e por governar o Imperium de 10.193 até 10.205 d.G.. Nascido no planeta de Caladan, Paul Atreides era filho do Duque Leto Atreides I e de sua concubina Bene Gesserit, Lady Jéssica Atreides. Também era irmão de Alia Atreides, que viria a nascer mais tarde.",
+      "photoPath": "../public/imgs/atreides/paul-atreides.jpg"
+    },
+    {
+      "slug": "leto-atreides-i",
+      "name": "Leto Atreides I",
+      "home-planet": "Caladan",
+      "birth-date": "10.140 d.G.",
+      "genre": "Masculino",
+      "about": "Primo por parte de mãe dos membros da Casa Corrino, Leto Atreides I, também conhecido como Leto, o Justo e chamado de Duque Vermelho pelas legiões Sardaukar de Shaddam IV, foi um Duque da Casa Atreides na época da ascensão Atreides. Era conhecido por sua compaixão, bondade e sua liderança. Com sua concubina Bene Gesserit, Jéssica Atreides, ele foi pai de Paul Atreides e Alia Atreides. Foi avô de Ghanima e Leto Atreides II, o Imperador-Deus.",
+      "photoPath": "../public/imgs/atreides/leto-atreides.jpg"
+    },
+    {
+      "slug": "jessica-atreides",
+      "name": "Jéssica Atreides",
+      "home-planet": "Desconhecido",
+      "birth-date": "10.154 d.G.",
+      "genre": "Feminino",
+      "about": "Lady Jéssica Atreides, Lady Jéssica ou apenas Jéssica, foi uma Reverenda Madre da Irmandade Bene Gesserit. Ela também foi a concubina oficial do Duque Leto Atreides I, com quem teve dois filhos: o Imperador Paul Atreides e a Regente Alia Atreides. Como resultado do programa de reprodução das Bene Gesserit, Lady Jéssica era filha do Barão Vladimir Harkonnen e de uma mãe desconhecida. Sendo a informação dos pais de Jéssica secreta, constava nos arquivos das Bene Gesserit que sua mãe se chamava Tenidia Nerus.",
+      "photoPath": "../public/imgs/atreides/jessica-atreides.jpg"
+    },
+    {
+      "slug": "duncan-idaho",
+      "name": "Duncan Idaho",
+      "home-planet": "Gieidi Primo",
+      "birth-date": "10.158 d.G.",
+      "genre": "Masculino",
+      "about": "Duncan Idaho, mais tarde conhecido como Hayt, foi um Mestre das Espadas da Casa Atreides, e um dos melhores oficiais do Duque Leto Atreides I, juntamente com Gurney Halleck e Thufir Hawat. Dizia-se que Duncan era um homem de bela aparência.Depois de sua morte, Duncan retornou a vida como ghola diversas vezes, devido a suas qualidades. Em seu primeiro retorno como ghola, Duncan foi o consorte da Regente Alia Atreides, até ser assassinado por Stilgar. Depois disso, retornou como ghola inúmeras vezes, por ordem do Imperador-Deus, Leto Atreides II.",
+      "photoPath": "../public/imgs/atreides/duncan-idaho.jpg"
+    },
+    {
+      "slug": "gurney-halleck",
+      "name": "Gurney Halleck",
+      "home-planet": "Gieidi Primo",
+      "birth-date": "10.135 d.G.",
+      "genre": "Masculino",
+      "about": "Gurney Halleck foi um Mestre das Armas da Casa Atreides durante o governo de Leto Atreides I, e mais da tarde do filho do do Duque, Paul Atreides. Gurney nasceu em Giedi Primo, coração da Casa Harkonnen. Ele foi um escravo até ser resgatado pelo Duque Leto Atreides I e se tornar membro da Casa Atreides.     Juntamente com Thufir Hawat e Duncan Idaho, Gurney foi um importante mentor de Paul Atreides durante seus anos em Caladan. Além de exímio guerreiro, Gurney também era muito hábil tocando seu baliset.",
+      "photoPath": "../public/imgs/atreides/gurney-halleck.jpg"
+    },
+    {
+      "slug": "thufir-hawat",
+      "name": "Thufir Hawat",
+      "home-planet": "Logi",
+      "birth-date": "10.075 d.G.",
+      "genre": "Masculino",
+      "about": "Thufir Hawat foi um Mentat e Mestre dos Assassinos da Casa Atreides durante o governo de Leto Atreides I Durante três gerações, Thufir foi o responsável pela segurança da Casa Atreides, o que inclui diversos aspectos da kanly. Além disso, Hawat foi um importante instrutor de Paul Atreides nas artes da guerra, política e estratégia militar. Hawat tinha uma grande reputação, conhecida por diversas partes do Imperium. Devido a sua astúcia, honra e outras habilidades, Thufir era muito bem visto no Landsraad e cobiçado por diversas Casas Maiores, até mesmo pelo Barão Vladimir Harkonnen.",
+      "photoPath": "../public/imgs/atreides/thufir-hawat.jpg"
+    }
+  ]
+}
