@@ -23,6 +23,17 @@
   border: 2px solid #c54c07;
 }
 
+.link {
+  font-size: 1.5rem;
+  color: #c54c07;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #4bd0fa;
+}
+
 @media (max-width: 850px) {
   .container {
     display: grid;

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Footer from '../../../components/Footer';
 import Navbar from '../../../components/Navbar';
 import styles from '../../../styles/CharacterPage.module.css';
@@ -33,6 +34,9 @@ export default function CasaAtreides({ character }) {
           </figure>
         </div>
         <div className={styles.content}>
+          <Link href="/casa-atreides">
+            <a className={styles.link}>Casa Atreides</a>
+          </Link>
           <h1>{personagem.name}</h1>
           <p>{personagem.about}</p>
           <p>
