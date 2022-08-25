@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import styles from '../../styles/Atreides.module.css';
-import { characters } from '../../data/atreides.json';
+import characters from '../../data/characters.json';
 
 export default function CasaAtreides() {
   return (
@@ -32,7 +32,7 @@ export default function CasaAtreides() {
         </section>
         <section className={styles.cardContainer}>
           <h2>Personagens</h2>
-          {characters.map(
+          {characters.atreides.map(
             ({ slug, name, homePlanet, birthDate, photoPath, genre }) => (
               <div key={slug} className={styles.card}>
                 <figure>
