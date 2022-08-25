@@ -54,5 +54,34 @@
       "about": "Thufir Hawat foi um Mentat e Mestre dos Assassinos da Casa Atreides durante o governo de Leto Atreides I Durante três gerações, Thufir foi o responsável pela segurança da Casa Atreides, o que inclui diversos aspectos da kanly. Além disso, Hawat foi um importante instrutor de Paul Atreides nas artes da guerra, política e estratégia militar. Hawat tinha uma grande reputação, conhecida por diversas partes do Imperium. Devido a sua astúcia, honra e outras habilidades, Thufir era muito bem visto no Landsraad e cobiçado por diversas Casas Maiores, até mesmo pelo Barão Vladimir Harkonnen.",
       "photoPath": "/imgs/atreides/thufir-hawat.jpg"
     }
+  ],
+  "harkonnen": [
+    {
+      "slug": "vladimir-harkonnen",
+      "name": "Vladimir Harkonnen",
+      "homePlanet": "Gieidi Primo",
+      "birthDate": "10.110 d.G.",
+      "genre": "Masculino",
+      "about": "Vladimir Harkonnen, comumente chamado de barão Harkonnen, seu título oficial é barão-siridar(governador planetário). Vladimir Harkonnen é o descendente masculino em linha direta do bashar Abulurd Harkonnen, banido por covardia após a Batalha de Corrino. A volta da Casa Harkonnen ao poder costuma ser atribuída à manipulação sagaz do mercado de pele de baleia e, posteriormente, à consolidação com a abundância de mélange em Arrakis.",
+      "photoPath": "/imgs/harkonnen/vladimir-harkonnen.jpg"
+    },
+    {
+      "slug": "piter-de-vries",
+      "name": "Piter de Vries",
+      "homePlanet": "Desconhecido",
+      "birthDate": "Desconhecido",
+      "genre": "Masculino",
+      "about": "Desconhecido",
+      "photoPath": "/imgs/harkonnen/piter-de-vries.jpg"
+    },
+    {
+      "slug": "glossu-rabban",
+      "name": "Glossu Rabban",
+      "homePlanet": "Desconhecido",
+      "birthDate": "Desconhecido",
+      "genre": "Masculino",
+      "about": "Desconhecido",
+      "photoPath": "/imgs/harkonnen/glossu-rabban.jpg"
+    }
   ]
 }

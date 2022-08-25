@@ -5,33 +5,32 @@ import styles from '../../styles/CasaPages.module.css';
 import Cards from '../../components/Cards';
 import characters from '../../data/characters.json';
 
-export default function CasaAtreides() {
+export default function CasaHarkonnen() {
   return (
     <div>
       <Head>
-        <title>Duna - Casa Atreides</title>
+        <title>Duna - Casa HARKONNEN</title>
         <meta name="description" content="Página sobre Duna" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <main className={styles.main}>
         <section className={styles.content}>
-          <h1>CASA ATREIDES</h1>
+          <h1>CASA HARKONNEN</h1>
           <p>
-            Os Atreides governaram o exuberante planeta oceânico chamado Caladan
-            com justiça e honra por gerações, sendo uma das Casas Principais do
-            Império, e seus membros desempenham um papel importante em todos os
-            livros da saga.
+            A Casa Harkonnen era uma das Casas Maiores durante a época dos
+            Imperadores Padixá. Tinha como capital Gieidi Primo, um planeta
+            fortemente industrializado e com baixo potencial fotossintético.
           </p>
           <p>
-            A família Atreides afirma ter origens antigas, que remontam à
-            mitologia grega. Na verdade, o próprio nome de Atreides refere-se a
-            Atreus, o pai de Agamenon.
+            Era conhecida principalmente por suas táticas políticas dissimuladas
+            e sinistras e por uma antiga rivalidade com a Casa Atreides. Os
+            governantes da Casa Harkonnen recebiam o título de Barão-siridar.
           </p>
         </section>
         <section className={styles.cardContainer}>
           <h2>Personagens</h2>
-          <Cards data={characters.atreides} />
+          <Cards data={characters.harkonnen} />
         </section>
       </main>
 
