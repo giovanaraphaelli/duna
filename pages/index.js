@@ -11,6 +11,7 @@ export default function Home() {
         <title>Duna</title>
         <meta name="description" content="Página sobre Duna" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#c54c07" />
       </Head>
       <Navbar />
       <HomeBanner />

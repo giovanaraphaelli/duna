@@ -9,8 +9,12 @@ export default function CasaHarkonnen() {
     <div>
       <Head>
         <title>Duna - Casa Harkonnen</title>
-        <meta name="description" content="Página sobre Duna" />
+        <meta
+          name="description"
+          content="Página sobre a Casa Harkonnen de Duna"
+        />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#c54c07" />
       </Head>
       <Navbar />
       <CasaPages

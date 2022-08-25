@@ -15,6 +15,7 @@ export default function CasaHarkonnen({ character }) {
         <title>Duna - Casa Harkonnen</title>
         <meta name="description" content="Página sobre Duna" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#c54c07" />
       </Head>
       <Navbar />
 

@@ -11,8 +11,12 @@ export default function CasaAtreides({ character }) {
     <div>
       <Head>
         <title>Duna - Casa Atreides</title>
-        <meta name="description" content="Página sobre Duna" />
+        <meta
+          name="description"
+          content="Página sobre a Casa Atreides de Duna"
+        />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#c54c07" />
       </Head>
       <Navbar />
 
