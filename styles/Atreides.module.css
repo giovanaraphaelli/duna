@@ -1,0 +1,102 @@
+.main {
+  max-width: 1200px;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 4px 2px 0px #c54c07;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 150px;
+  padding: 30px;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cardContainer h2 {
+  position: relative;
+  font-size: 2rem;
+  grid-column: 1/-1;
+  color: #c54c07;
+  margin-bottom: 30px;
+}
+
+.cardContainer h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 20px;
+  left: 225px;
+  z-index: -1;
+  background-color: #c54c07;
+}
+.cardContainer h2::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 20px;
+  right: 225px;
+  z-index: -1;
+  background-color: #c54c07;
+}
+
+.card {
+  position: relative;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 30px 30px 30px;
+  border: 2px solid #c54c07;
+}
+
+.card figure {
+  position: absolute;
+  top: -100px;
+  display: flex;
+  align-self: center;
+  border: 3px solid #c54c07;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px 0;
+  text-align: center;
+}
+.cardContent h3 {
+  font-size: 1.8rem;
+}
+
+.cardContent p {
+  font-size: 1rem;
+}

@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  color: #d3b19d;
+  color: #fff;
 }
 
 li {
@@ -29,13 +29,12 @@ html {
   min-width: 200px;
   text-align: center;
   display: inline-block;
-  color: #d3b19d;
+  color: #fff;
   font-weight: 700;
   font-size: 1rem;
   text-transform: uppercase;
   background-color: #000;
-  border: 2px solid #d3b19d;
-  border-radius: 10px;
+  border: 2px solid #fff;
   padding: 0.5rem 0.8rem;
   z-index: 9;
   transition: 0.3s;
