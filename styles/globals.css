@@ -33,7 +33,7 @@ html {
   font-weight: 700;
   font-size: 1rem;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: transparent;
   border: 2px solid #fff;
   padding: 0.5rem 0.8rem;
   z-index: 9;
@@ -46,4 +46,60 @@ html {
 .btn:hover {
   color: #4bd0fa;
   border: 2px solid #4bd0fa;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 4px 2px 0px #c54c07;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  position: relative;
+  font-size: 2rem;
+  color: #c54c07;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 2px;
+  position: absolute;
+  top: 20px;
+  left: 225px;
+  z-index: -1;
+  background-color: #c54c07;
+}
+h2::before {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 2px;
+  position: absolute;
+  top: 20px;
+  right: 225px;
+  z-index: -1;
+  background-color: #c54c07;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  h2::after {
+    display: none;
+  }
+  h2::before {
+    display: none;
+  }
 }

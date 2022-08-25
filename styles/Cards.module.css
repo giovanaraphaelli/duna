@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  max-width: 350px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   padding: 80px 30px 30px 30px;
@@ -20,15 +20,20 @@
   height: 200px;
 }
 
+.card a {
+  margin-bottom: 15px;
+}
+
 .cardContent {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 30px 0;
+  padding: 30px 0 40px 0;
   text-align: center;
 }
 .cardContent h3 {
   font-size: 1.8rem;
+  margin-bottom: 15px;
 }
 
 .cardContent p {

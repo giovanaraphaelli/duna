@@ -71,7 +71,7 @@
       "homePlanet": "Desconhecido",
       "birthDate": "Desconhecido",
       "genre": "Masculino",
-      "about": "Desconhecido",
+      "about": "",
       "photoPath": "/imgs/harkonnen/piter-de-vries.jpg"
     },
     {
@@ -80,7 +80,7 @@
       "homePlanet": "Desconhecido",
       "birthDate": "Desconhecido",
       "genre": "Masculino",
-      "about": "Desconhecido",
+      "about": "",
       "photoPath": "/imgs/harkonnen/glossu-rabban.jpg"
     }
   ]

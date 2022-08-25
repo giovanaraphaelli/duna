@@ -33,7 +33,7 @@ const Cards = (props) => {
                 {genre}
               </p>
             </div>
-            <Link href={`/casa-atreides/personagens/${slug}`}>
+            <Link href={props.href + slug}>
               <a className="btn">Saiba Mais</a>
             </Link>
           </div>

@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  padding: 10px;
+  border: 2px solid #c54c07;
+}
+
+@media (max-width: 850px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .containerImg {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+}

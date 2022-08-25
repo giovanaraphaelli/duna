@@ -1,6 +1,6 @@
 .main {
   max-width: 1200px;
-  padding: 10px;
+  padding: 15px;
   margin: 50px auto;
 }
 
@@ -10,57 +10,35 @@
   text-align: center;
 }
 
-.content h1 {
-  font-size: 3rem;
-  color: #fff;
-  text-shadow: 4px 2px 0px #c54c07;
-  letter-spacing: 2px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .content p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+}
+
+.content h1 {
+  text-align: center;
 }
 
 .cardContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   row-gap: 150px;
-  padding: 30px;
+  padding: 15px;
   justify-items: center;
   justify-content: center;
   margin-top: 100px;
 }
 
 .cardContainer h2 {
-  position: relative;
-  font-size: 2rem;
   grid-column: 1/-1;
-  color: #c54c07;
-  margin-bottom: 30px;
 }
 
-.cardContainer h2::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  top: 20px;
-  left: 225px;
-  z-index: -1;
-  background-color: #c54c07;
-}
-.cardContainer h2::before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  top: 20px;
-  right: 225px;
-  z-index: -1;
-  background-color: #c54c07;
+@media (max-width: 650px) {
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .cardContainer {
+    margin-top: 50px;
+  }
 }

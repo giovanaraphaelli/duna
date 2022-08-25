@@ -4,7 +4,7 @@ import Link from 'next/link';
 const HomeContent = () => {
   return (
     <section className={styles.content} id="sobre">
-      <h2> Sobre DUNA</h2>
+      <h2> Sobre </h2>
       <p>
         Duna (no original em inglês Dune) é um romance de ficção científica do
         escritor americano Frank Herbert (1920-1986), publicado originalmente
@@ -48,14 +48,6 @@ const HomeContent = () => {
         o trabalho de cálculos complicados é feito pelos Mentats, homens
         treinados desde a infância para usarem suas mentes como computadores.
       </p>
-      <div className={styles.wrapperBtn}>
-        <Link href="/casa-atreides">
-          <a className="btn">Casa Atreides</a>
-        </Link>{' '}
-        <Link href="/casa-harkonnen">
-          <a className="btn">Casa Harkonnen</a>
-        </Link>
-      </div>
     </section>
   );
 };

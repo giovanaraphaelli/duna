@@ -1,14 +1,13 @@
-.header {
-  max-width: 1200px;
-  padding: 10px;
-  margin: 0 auto;
+.navbar {
+  position: relative;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
 }
 
-.header .logo {
+.navbar .logo {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
@@ -17,15 +16,31 @@
   letter-spacing: 2px;
   transition: 0.3s;
 }
-
-.header ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+.headerBg {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
 }
 
-.header ul li a {
+.list {
+  position: absolute;
+  background-color: #c54c07;
+  display: flex;
+  width: 300px;
+  height: calc(100vh - 65px);
+  top: 65px;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-top: 30px;
+  transition: 0.3s;
+}
+
+.listDisable > li > a {
+  display: none;
+}
+
+.list li a {
   color: #fff;
   font-weight: 700;
   font-size: 1rem;
@@ -34,7 +49,7 @@
   transition: 0.3s;
 }
 
-.header .logo:hover,
-.header ul li a:hover {
+.navbar.logo:hover,
+.list li a:hover {
   color: #4bd0fa;
 }
