@@ -19,13 +19,15 @@ export default function CasaAtreides() {
         <section className={styles.content}>
           <h1>CASA ATREIDES</h1>
           <p>
-            Segundo a lenda, a Casa Atreides veio de uma família nobre que se
-            originou na Grécia na Terra e que ganharam destaque no Jihad
-            Butleriano. A Casa Atreides afirmava ser descendente do rei
-            Agamenon, filho de Atreus, segundo a mitologia grega. Os
-            descendentes de Atreus eram chamados de "Atreides" (plural
-            "Atreidai", latinizado como "Atreidae") na língua grega. Esta Casa
-            Real incluía muitas figuras significativas no mito grego.
+            Os Atreides governaram o exuberante planeta oceânico chamado Caladan
+            com justiça e honra por gerações, sendo uma das Casas Principais do
+            Império, e seus membros desempenham um papel importante em todos os
+            livros da saga.
+          </p>
+          <p>
+            A família Atreides afirma ter origens antigas, que remontam à
+            mitologia grega. Na verdade, o próprio nome de Atreides refere-se a
+            Atreus, o pai de Agamenon.
           </p>
         </section>
         <section className={styles.cardContainer}>
