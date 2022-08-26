@@ -13,6 +13,7 @@ O site é composto por 3 sessões diferentes:
 - Home;
 - Página individual para cada Casa;
 - Página individual para cada Personagem;
+- Página de pesquisa sobre Termologias;
 
 ## 🛠️ Tecnologias utilizadas
 
