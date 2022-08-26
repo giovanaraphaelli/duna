@@ -13,7 +13,7 @@ export default function CasaHarkonnen({ character }) {
   return (
     <div>
       <Head>
-        <title>Duna - Casa Harkonnen</title>
+        <title>Duna - {personagem.name}</title>
         <meta name="description" content="Página sobre Duna" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#c54c07" />

@@ -6,9 +6,7 @@ import sands from '../public/imgs/areias.svg';
 const HomeBanner = () => {
   return (
     <section className={styles.banner}>
-      <div className={styles.img} id={styles.moons}>
-        {/* <Image src={moons} alt="" layout="fill" objectFit="cover" /> */}
-      </div>
+      <div className={styles.img} id={styles.moons}></div>
 
       <div className={styles.img} id={styles.sands}>
         <Image src={sands} alt="" layout="fill" objectFit="cover" />

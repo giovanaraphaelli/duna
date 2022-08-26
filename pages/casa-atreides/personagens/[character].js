@@ -11,7 +11,7 @@ export default function CasaAtreides({ character }) {
   return (
     <div>
       <Head>
-        <title>Duna - Casa Atreides</title>
+        <title>Duna - {personagem.name}</title>
         <meta
           name="description"
           content="Página sobre a Casa Atreides de Duna"

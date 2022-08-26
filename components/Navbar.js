@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Navbar.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -8,6 +8,15 @@ const Navbar = () => {
   const handleClick = () => {
     setClick(!click);
   };
+
+  useEffect(() => {
+    if (click) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+  }, [click]);
+
   return (
     <nav className={styles.navbar}>
       <Link href="/">
@@ -32,6 +41,11 @@ const Navbar = () => {
         <li>
           <Link href="/terminologia">
             <a>Terminologia</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/geografia-de-arrakis">
+            <a>Geografia de Arrakis</a>
           </Link>
         </li>
       </ul>
