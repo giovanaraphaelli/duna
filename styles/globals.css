@@ -24,6 +24,10 @@ strong::selection {
 a {
   text-decoration: none;
 }
+p {
+  word-spacing: 2px;
+  line-height: 1.5rem;
+}
 
 body {
   min-height: 100vh;

@@ -10,7 +10,7 @@ const HomeContent = () => {
         escritor americano Frank Herbert (1920-1986), publicado originalmente
         pela editora Chilton Books nos Estados Unidos em 1965. Vencedor do
         prêmio Hugo de 1966, Duna é considerado o livro de ficção científica
-        mais vendido de todos os tempos.Independentemente de seu sucesso
+        mais vendido de todos os tempos. Independentemente de seu sucesso
         comercial, Duna é continuadamente apontada como uma das mais renomadas
         obras de ficção e fantasia já lançadas, e um dos pilares da ficção
         científica moderna. Consistindo no início da série Duna, a história
