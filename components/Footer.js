@@ -5,7 +5,13 @@ const Footer = () => {
     <footer className={styles.footer}>
       <p>
         Desenvolvido por{' '}
-        <a href="https://giovanaraphaelli.vercel.app/">@girapha</a>
+        <a
+          href="https://giovanaraphaelli.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          @girapha
+        </a>
       </p>
     </footer>
   );
