@@ -14,7 +14,7 @@ O site é composto por 3 sessões diferentes:
 - Página individual para cada Casa;
 - Página individual para cada Personagem;
 - Página de pesquisa sobre Terminologias;
-
+- Página de pesquisa sobre a Geografia de Arrakis;
 ## 🛠️ Tecnologias utilizadas
 
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
