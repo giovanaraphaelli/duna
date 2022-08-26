@@ -29,6 +29,11 @@ const Navbar = () => {
             <a>Casa Harkonnen</a>
           </Link>
         </li>
+        <li>
+          <Link href="/terminologia">
+            <a>Terminologia</a>
+          </Link>
+        </li>
       </ul>
       <div onClick={handleClick}>
         {click ? (
