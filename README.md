@@ -8,12 +8,13 @@ Esta é uma aplicação sobre o livro e filme de Duna, e contém descrições so
 
 ## 📚 Páginas
 
-O site é composto por 3 sessões diferentes:
+O site é composto por 5 sessões diferentes:
 
 - Home;
 - Página individual para cada Casa;
 - Página individual para cada Personagem;
 - Página de pesquisa sobre Terminologias;
+- Página de pesquisa sobre a Geografia de Arrakis;
 
 ## 🛠️ Tecnologias utilizadas
 
