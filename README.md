@@ -2,6 +2,8 @@
 
 ![Resultado final do projeto](./public/imgs/projeto-finalizado.png)
 
+<h4 align="center"><a href="https://duna-three.vercel.app/">Clique para visitar o projeto</a></h4>
+
 ## 🎯 Objetivo
 
 Esta é uma aplicação sobre o livro e filme de Duna, e contém descrições sobre cada personagem.
