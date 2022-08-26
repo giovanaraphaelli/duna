@@ -19,6 +19,7 @@ const Terms = () => {
       <input
         type="text"
         value={search}
+        placeholder="Digite aqui"
         onChange={(event) => setSearch(event.target.value)}
       />
 
