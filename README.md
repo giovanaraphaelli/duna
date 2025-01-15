@@ -22,7 +22,6 @@ O site é composto por 5 sessões diferentes:
 
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-- React JS;
 - Next JS;
 - CSS Modules;
 - React Icons;
