@@ -2,7 +2,7 @@
 
 ![Resultado final do projeto](./public/imgs/projeto-finalizado.png)
 
-<h4 align="center"><a href="https://duna-three.vercel.app/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a target="_blank" href="https://duna.giovanaraphaelli.tech/">Clique para visitar o projeto</a></h4>
 
 ## 🎯 Objetivo
 
